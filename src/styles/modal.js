@@ -1,0 +1,17 @@
+export const style = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  width: 800,
+  padding: 40,
+  border: "2px solid #000",
+  bor: 8,
+  borderRadius: "6px",
+  boxShadow: 24,
+  p: 4,
+  textAlign: "center",
+  display: "flex",
+  flexDirection: "column",
+  backgroundColor: "#fff",
+};
