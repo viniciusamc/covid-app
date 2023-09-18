@@ -16,7 +16,7 @@ export default function Menu() {
   const [status, setStatus] = useState();
 
   function statusChange() {
-    if (status.status == "ok") return <Success>Funcionando</Success>;
+    if (status.status === "ok") return <Success>Funcionando</Success>;
   }
 
   function timeChange() {

@@ -51,6 +51,7 @@ export function Registrar() {
           id="demo-simple-select"
           value={estado ? estado : ""}
           label="Estado"
+          required
           {...register("state")}
           onChange={(e) => setEstado(e.target.value)}
         >
